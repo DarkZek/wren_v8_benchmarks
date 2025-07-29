@@ -6,7 +6,7 @@ For the purpose of using as a game scripting language this conducts performance 
 
 [View the Wren benchmark implementation](./benches/script.wren)
 
-The benchmark is an iteration test, it takes two parameters A and B. While these numbers are low we should expect most of the time taken is interop & script parsing time. As these numbers increase the recursion increases so we should expect to measure more of the runtime performance of the engines.
+The benchmark is an recursion test, it takes two parameters A and B. While these numbers are low we should expect most of the time taken is interop & script parsing time. As these numbers increase the recursion increases so we should expect to measure more of the runtime performance of the engines.
 
 On a M2 Pro Macbook Pro the results were as following
 
