@@ -1,0 +1,15 @@
+[package]
+name = "wren_v8_benchmark"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rusty_v8 = "0.32.1"
+ruwren = "0.4.10"
+
+[dev-dependencies]
+criterion = { version = "0.5", features = ["html_reports"] }
+
+[[bench]]
+name = "main"
+harness = false
